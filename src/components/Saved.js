@@ -1,41 +1,20 @@
 import React from 'react';
+import {Link} from 'react-router';
 
-class Saved extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {value: ''};
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+const Saved = props => (
+	<div id="Savedjs" className="panel panel-default text-center">
+		<div className="panel-heading">Saved</div>
+			<p><Link to="/">
+				Go to Home
+			</Link>
+			|
+			<Link to="/Giphy">
+				Go to Giphy
+			</Link></p>
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
-
-  handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
-    event.preventDefault();
-  }
-
-  render() {
-    return (
-      <div className="panel panel-default">
-		<div className="panel-heading">Search for Articles</div>
-
-			<div className="panel-body">
-			
-		      <form onSubmit={this.handleSubmit}>
-		        Name:
-		        <input type="text" value={this.state.value} onChange={this.handleChange} />
-		        <input type="submit" value="Submit" />
-		      </form>
-
-		    </div> 
-	 </div>
-      
-    );
-  }
-}
+	</div>
+	)
 
 export default Saved;
+

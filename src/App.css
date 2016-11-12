@@ -6,26 +6,32 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+.panel {
+  margin-bottom: 5px;
+}
 .wrapper{
 
-  width: 960px;
+  width: 860px;
   margin: 0 auto;
 }
 #headerDiv {
-  height: 100px;
-  border: 1px red solid;
-  background-image: "./assets/NYTLogo.jpg";
+   /*border: 1px red solid;*/
+  height: 70px;
+  background-image: url(../public/assets/NYTLogo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
-#Searchjs {
-  margin-top: 25px;
-}
+
 /*.row {
   border: 1px red solid;
 }*/
 /*.panel {
   border: 1px blue solid;
 }*/
-
+h3 {
+  margin-top: 5px;
+}
 h2 {
   padding: 5px 5px 5px 5px;
   background-color: grey;

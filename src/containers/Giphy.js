@@ -34,13 +34,21 @@ class Giphy extends Component {
 
   render() {
     return (
-     	<div>
-	        <Navbar
-	          handleChange={this.handleChange.bind(this)}
-	          handleSubmit={this.handleSubmit.bind(this)}
-	          show={true}
-	        />
-      </div>
+     	<div id="homeDiv" className="wrapper">
+        <div className="row">
+          <div id="headerDiv"></div>
+         </div>  
+        
+        <div className="row">
+          <div className="container-fluid">
+  	        <Navbar
+  	          handleChange={this.handleChange.bind(this)}
+  	          handleSubmit={this.handleSubmit.bind(this)}
+  	          show={true}
+  	        />
+          </div>  
+        </div>
+     </div> 
     );
   }
 }

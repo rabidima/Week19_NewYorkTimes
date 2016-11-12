@@ -10,7 +10,7 @@ class Home extends Component {
 		return(
 			<div id="homeDiv" className="wrapper">
 				<div className="row">
-					<div id="headerDiv" className="container-fluid">asas</div>
+					<div id="headerDiv"></div>
 				</div>	
 				
 				<div className="row">
