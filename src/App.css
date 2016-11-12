@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.wrapper{
+
+  width: 960px;
+  margin: 0 auto;
+}
+#headerDiv {
+  height: 100px;
+  border: 1px red solid;
+  background-image: "./assets/NYTLogo.jpg";
+}
+#Searchjs {
+  margin-top: 25px;
+}
+/*.row {
+  border: 1px red solid;
+}*/
+/*.panel {
+  border: 1px blue solid;
+}*/
+
+h2 {
+  padding: 5px 5px 5px 5px;
+  background-color: grey;
+  color: white;
+}
+
+/*#homeDiv {
+  margin: 5% 10px 10px 5%;
+  text-align: center;
+  max-width: 1024px;
+
+}*/
+
+/*.navbar {
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  position: static;
+}*/
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
